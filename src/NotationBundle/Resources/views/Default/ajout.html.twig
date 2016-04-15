@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Gestion des personnes {% endblock %}
+{% block main %}
+    {{ form(form) }}
+
+
+    <p>Les Gens</p>
+    {% for person in liste %}
+        <li>{{ person.nom }} {{ person.prenom }}</li>
+    {% endfor %}
+
+{% endblock %}
+
