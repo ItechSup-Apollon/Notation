@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20f03334-97f8-489b-9478-ea83d032d43f" name="Default" comment="" />
+    <list default="true" id="20f03334-97f8-489b-9478-ea83d032d43f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/NotationBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/NotationBundle/Controller/DefaultController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/NotationBundle/Form/Type/AjoutPersonneType.php" afterPath="$PROJECT_DIR$/src/NotationBundle/Form/Type/AjoutPersonneType.php" />
+    </list>
     <ignored path="Notation.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -35,16 +39,25 @@
       <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/NotationBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="168" column="13" selection-start-line="168" selection-start-column="13" selection-end-line="168" selection-end-column="13" />
+            <state relative-caret-position="462">
+              <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
               <folding>
                 <element signature="e#45#78#0#PHP" expanded="true" />
-                <element signature="e#2320#2344#1#PHP" expanded="true" />
-                <element signature="e#2396#2418#1#PHP" expanded="true" />
-                <element signature="e#3631#3655#1#PHP" expanded="true" />
-                <element signature="e#4615#4637#1#PHP" expanded="true" />
-                <element signature="e#4694#4739#0#PHP" expanded="true" />
+                <element signature="e#1399#1423#1#PHP" expanded="true" />
+                <element signature="e#2599#2623#1#PHP" expanded="true" />
+                <element signature="e#3583#3605#1#PHP" expanded="true" />
+                <element signature="e#3662#3707#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AjoutPersonneType.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NotationBundle/Form/Type/AjoutPersonneType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,7 +109,7 @@
       <file leaf-file-name="SessionType.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NotationBundle/Form/Type/SessionType.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
+            <state relative-caret-position="198">
               <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding>
                 <element signature="e#92#132#0#PHP" expanded="true" />
@@ -158,6 +171,9 @@
       <command text="php app/console doctrine:schema:update --force" />
     </commandsHistory>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
   </component>
@@ -175,9 +191,10 @@
         <option value="$PROJECT_DIR$/src/NotationBundle/Resources/views/Default/ajouteleve.html.twig" />
         <option value="$PROJECT_DIR$/src/NotationBundle/Resources/views/Default/ajoutsession.html.twig" />
         <option value="$PROJECT_DIR$/src/NotationBundle/Form/SessionTask.php" />
-        <option value="$PROJECT_DIR$/src/NotationBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/NotationBundle/Entity/Person.php" />
         <option value="$PROJECT_DIR$/src/NotationBundle/Form/Type/SessionType.php" />
+        <option value="$PROJECT_DIR$/src/NotationBundle/Form/Type/AjoutPersonneType.php" />
+        <option value="$PROJECT_DIR$/src/NotationBundle/Controller/DefaultController.php" />
       </list>
     </option>
   </component>
@@ -191,10 +208,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="416" />
-    <option name="y" value="234" />
-    <option name="width" value="1216" />
-    <option name="height" value="583" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1098" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -212,14 +229,14 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -271,13 +288,57 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Notation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Notation" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NotationBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Notation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Notation" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NotationBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Form" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Type" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager">
@@ -327,12 +388,12 @@
       <updated>1460620120575</updated>
       <workItem from="1460620124683" duration="22091000" />
       <workItem from="1460704918281" duration="98000" />
-      <workItem from="1460705762705" duration="19329000" />
+      <workItem from="1460705762705" duration="20783000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41518000" />
+    <option name="totallyTimeSpent" value="42972000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -344,16 +405,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="416" y="234" width="1216" height="583" extended-state="1" />
+    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32661995" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20010729" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.49785408" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978677" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942432" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14818764" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -435,11 +496,10 @@
           <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
           <folding>
             <element signature="e#45#78#0#PHP" expanded="true" />
-            <element signature="e#2320#2344#1#PHP" expanded="true" />
-            <element signature="e#2396#2418#1#PHP" expanded="true" />
-            <element signature="e#3631#3655#1#PHP" expanded="true" />
-            <element signature="e#4615#4637#1#PHP" expanded="true" />
-            <element signature="e#4694#4739#0#PHP" expanded="true" />
+            <element signature="e#1399#1423#1#PHP" expanded="true" />
+            <element signature="e#2599#2623#1#PHP" expanded="true" />
+            <element signature="e#3583#3605#1#PHP" expanded="true" />
+            <element signature="e#3662#3707#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -528,11 +588,10 @@
           <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
           <folding>
             <element signature="e#45#78#0#PHP" expanded="true" />
-            <element signature="e#2320#2344#1#PHP" expanded="true" />
-            <element signature="e#2396#2418#1#PHP" expanded="true" />
-            <element signature="e#3631#3655#1#PHP" expanded="true" />
-            <element signature="e#4615#4637#1#PHP" expanded="true" />
-            <element signature="e#4694#4739#0#PHP" expanded="true" />
+            <element signature="e#1399#1423#1#PHP" expanded="true" />
+            <element signature="e#2599#2623#1#PHP" expanded="true" />
+            <element signature="e#3583#3605#1#PHP" expanded="true" />
+            <element signature="e#3662#3707#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -704,7 +763,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NotationBundle/Form/Type/SessionType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
+        <state relative-caret-position="198">
           <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
             <element signature="e#92#132#0#PHP" expanded="true" />
@@ -712,17 +771,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/NotationBundle/Form/Type/AjoutPersonneType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/NotationBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="168" column="13" selection-start-line="168" selection-start-column="13" selection-end-line="168" selection-end-column="13" />
+        <state relative-caret-position="462">
+          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
           <folding>
             <element signature="e#45#78#0#PHP" expanded="true" />
-            <element signature="e#2320#2344#1#PHP" expanded="true" />
-            <element signature="e#2396#2418#1#PHP" expanded="true" />
-            <element signature="e#3631#3655#1#PHP" expanded="true" />
-            <element signature="e#4615#4637#1#PHP" expanded="true" />
-            <element signature="e#4694#4739#0#PHP" expanded="true" />
+            <element signature="e#1399#1423#1#PHP" expanded="true" />
+            <element signature="e#2599#2623#1#PHP" expanded="true" />
+            <element signature="e#3583#3605#1#PHP" expanded="true" />
+            <element signature="e#3662#3707#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

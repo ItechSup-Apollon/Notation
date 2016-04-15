@@ -28,31 +28,7 @@ class DefaultController extends Controller
      */
     public function ajoutAction(Request $request)
     {
-        $personne = new Person();
 
-        $form = $this->createFormBuilder($personne)
-            ->add('nom', 'text')
-            ->add('prenom', 'text')
-            ->add('save', 'submit', array('label' =>'ajouter une personne'))
-            ->getForm();
-
-        $form->handleRequest($request);
-
-        if ($form->isSubmitted() && $form->isValid()) {
-            $em = $this->getDoctrine()->getManager();
-            $em->persist($personne);
-            $em->flush();
-            return $this->redirectToRoute('ajout_personne');
-        }
-
-        $em = $this->getDoctrine()->getManager();
-        $liste = $em->getRepository('NotationBundle:Person')->findAll();
-
-        return $this->render(
-            'NotationBundle:Default:ajout.html.twig',
-            array(
-                'form' => $form->createView(),
-                'liste' => $liste,
             )
         );
 
@@ -60,16 +36,11 @@ class DefaultController extends Controller
 
     /**
      * @Route("/session/ajout", name="ajout_session")
-     *
-     *
      */
+
     public function ajoutSession()
     {
         $session = new Session();
-
-
-
-
 
         $form->handleRequest($request);
 
@@ -81,16 +52,13 @@ class DefaultController extends Controller
         }
 
         $em = $this->getDoctrine()->getManager();
-        $em2 = $this->getDoctrine()->getManager();
         $liste2 = $em->getRepository('NotationBundle:Session')->findAll();
-        $liste4 = $em2->getRepository('NotationBundle:Eleve')->findAll();
 
         return $this->render(
             'NotationBundle:Default:ajoutsession.html.twig',
             array(
                 'form' => $form->createView(),
                 'liste2' => $liste2,
-                'liste4' => $liste4,
             )
         );
     }
